@@ -21,8 +21,8 @@ def main():
     parser.add_argument('--version', required=True)
     args = parser.parse_args()
     sdk = args.sdk.resolve()
-    if not re.fullmatch(r'\d+\.\d+\.\d+-tich\.\d+', args.version):
-        parser.error('Версия должна иметь вид 26.10.20-tich.1')
+    if not re.fullmatch(r'\d+\.\d+\.\d+(?:-tich\.\d+)?', args.version):
+        parser.error('Версия должна иметь вид 26.10.21')
     if git(sdk, 'remote', 'get-url', 'origin') != 'https://github.com/z0rgoyok/matrix-rust-sdk.git':
         parser.error('Источник SDK должен быть нашим форком')
     if git(sdk, 'status', '--porcelain', '--untracked-files=no'):

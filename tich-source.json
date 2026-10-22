@@ -42,7 +42,7 @@
     "MatrixSDKFFI.xcframework/ios-arm64-simulator/Headers/MatrixSDKFFI/ruma_eventsFFI.h": "33ecaa3a2d17c3ec058983b5520143cf60c40a92a851a5c395c1f6f8f725ba2f",
     "MatrixSDKFFI.xcframework/ios-arm64-simulator/libmatrix_sdk_ffi.a": "fffc2751a8c3b121839a2e3ad07d9d1d50728b66c3ee34ac358a6850891ad81b"
   },
-  "version": "26.10.20-tich.1",
+  "version": "26.10.21",
   "archive_sha256": "7776c018584f254588bbcc05951dac537ebc7a2b3b999574767f926d8eb7580a",
   "sdk_repository": "https://github.com/z0rgoyok/matrix-rust-sdk"
 }
