@@ -1,0 +1,27 @@
+name: Tich SDK package
+on: [pull_request, push]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: swift package dump-package > /dev/null
+      - name: Verify source receipt and Swift bindings
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, re
+          receipt = json.loads(pathlib.Path('tich-source.json').read_text())
+          manifest = pathlib.Path('Package.swift').read_text()
+          assert re.fullmatch('[0-9a-f]{40}', receipt['source_sha'])
+          assert receipt['archive_sha256'] in manifest
+          assert receipt['version'] in manifest
+          assert 'github.com/z0rgoyok/matrix-rust-components-swift/' in manifest
+          for name, digest in receipt['files'].items():
+              if name.startswith('swift/'):
+                  path = pathlib.Path('Sources/MatrixRustSDK') / pathlib.Path(name).name
+                  assert hashlib.sha256(path.read_bytes()).hexdigest() == digest
+          PY
