@@ -1,6 +1,6 @@
 {
-  "source_sha": "d77966ae229a4a3131bbdfae3140d29c326fa6ae",
-  "source_tree": "985fd267c47deacbb9a17bd5d50e87caa9a02af7",
+  "source_sha": "27a0a4e0443ca3a1a5ded1ebb6bfe7ddc21752a4",
+  "source_tree": "916ef008a0bc50e9bd1147e9c91c1b2bb69aaa8b",
   "rust": "1.98.0",
   "xcode": "Xcode 26.4.1\nBuild version 17E202",
   "targets": [
@@ -18,7 +18,7 @@
     "swift/matrix_sdk_sqlite.swift": "9d9f94afa6313dc2a62ba19b37bfb502bba0021146fbf0f3bb7118eaa6bf2cf1",
     "swift/matrix_sdk_ui.swift": "e23c4e02c41d934016a8e998714340ef630d896fd8b004e7facf5423168db8d2",
     "swift/ruma_events.swift": "e916f5df83a84e45a758738cbde941599ddec4f1314863e3cec174c8e5e5796c",
-    "MatrixSDKFFI.xcframework/Info.plist": "bd17639ff3625d9dc0e99b7908c9540de1b13402cf31511ea0a97d3efb23d364",
+    "MatrixSDKFFI.xcframework/Info.plist": "4d933b500d45b5551d4211970bde8560dd57fd06c619ca67b3dd595f892dec4f",
     "MatrixSDKFFI.xcframework/ios-arm64/Headers/MatrixSDKFFI/matrix_sdkFFI.h": "bfa73a44fbd901b9a1a919a58bf003ebeda38f666e223733e08ad3a47a7e6f20",
     "MatrixSDKFFI.xcframework/ios-arm64/Headers/MatrixSDKFFI/matrix_sdk_baseFFI.h": "387c558d754b75bb98bc3f0905e5631db05a1666dc307e35de03ee115eaa44f6",
     "MatrixSDKFFI.xcframework/ios-arm64/Headers/MatrixSDKFFI/matrix_sdk_commonFFI.h": "3a22d33577ae8f12eca3458b5a1bab4ed2469e41420975a17be05f341ac2f20c",
@@ -29,7 +29,7 @@
     "MatrixSDKFFI.xcframework/ios-arm64/Headers/MatrixSDKFFI/matrix_sdk_uiFFI.h": "29dcb5e2708f164b2657ad02b9d4539de721b1e17919e0a93d5d3cce2dbae9ef",
     "MatrixSDKFFI.xcframework/ios-arm64/Headers/MatrixSDKFFI/module.modulemap": "129370e9f5b2e29a8dcff5c3bd6f34f2723938c2faefd74c5abbf7ed3fc7d82d",
     "MatrixSDKFFI.xcframework/ios-arm64/Headers/MatrixSDKFFI/ruma_eventsFFI.h": "33ecaa3a2d17c3ec058983b5520143cf60c40a92a851a5c395c1f6f8f725ba2f",
-    "MatrixSDKFFI.xcframework/ios-arm64/libmatrix_sdk_ffi.a": "6d703961c3edb3552458aaa9b5e783558c8454fa6da62fc19adbc8e0016bf46e",
+    "MatrixSDKFFI.xcframework/ios-arm64/libmatrix_sdk_ffi.a": "e45460fd3281fb0db34d761569d79e1ee9636f97172e958de8b73256fd6555e9",
     "MatrixSDKFFI.xcframework/ios-arm64-simulator/Headers/MatrixSDKFFI/matrix_sdkFFI.h": "bfa73a44fbd901b9a1a919a58bf003ebeda38f666e223733e08ad3a47a7e6f20",
     "MatrixSDKFFI.xcframework/ios-arm64-simulator/Headers/MatrixSDKFFI/matrix_sdk_baseFFI.h": "387c558d754b75bb98bc3f0905e5631db05a1666dc307e35de03ee115eaa44f6",
     "MatrixSDKFFI.xcframework/ios-arm64-simulator/Headers/MatrixSDKFFI/matrix_sdk_commonFFI.h": "3a22d33577ae8f12eca3458b5a1bab4ed2469e41420975a17be05f341ac2f20c",
@@ -40,9 +40,9 @@
     "MatrixSDKFFI.xcframework/ios-arm64-simulator/Headers/MatrixSDKFFI/matrix_sdk_uiFFI.h": "29dcb5e2708f164b2657ad02b9d4539de721b1e17919e0a93d5d3cce2dbae9ef",
     "MatrixSDKFFI.xcframework/ios-arm64-simulator/Headers/MatrixSDKFFI/module.modulemap": "129370e9f5b2e29a8dcff5c3bd6f34f2723938c2faefd74c5abbf7ed3fc7d82d",
     "MatrixSDKFFI.xcframework/ios-arm64-simulator/Headers/MatrixSDKFFI/ruma_eventsFFI.h": "33ecaa3a2d17c3ec058983b5520143cf60c40a92a851a5c395c1f6f8f725ba2f",
-    "MatrixSDKFFI.xcframework/ios-arm64-simulator/libmatrix_sdk_ffi.a": "f3d7d2e3fe5410cb9a6163f3fc08e46d4c79ec0f80165ac278a2ff88e96295d5"
+    "MatrixSDKFFI.xcframework/ios-arm64-simulator/libmatrix_sdk_ffi.a": "3df53e7994f3d1b2cdef56ec81b81a8ee6c8fe801dc0c410d0b3f3a143219ab5"
   },
-  "version": "26.10.22",
-  "archive_sha256": "d09c4b327005e5465f5f713a15772d7259737c5cf1fc6591147fe0a337711ca9",
+  "version": "26.10.23",
+  "archive_sha256": "4687e9e2253b508e1d1c83e984583b5dd8e27f34982a8b7cb4b46ef136942a77",
   "sdk_repository": "https://github.com/z0rgoyok/matrix-rust-sdk"
 }
